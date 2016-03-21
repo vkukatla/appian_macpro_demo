@@ -1,1 +1,0 @@
-# appian_macpro_demo
