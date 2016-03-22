@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <constant>
-        <name>KRISHNA_IMPORT_TEST</name>
-        <uuid>_a-0000dc71-eb91-8000-9ba2-011c48011c48_96342</uuid>
-        <description>Import Testing</description>
+        <name>KRISHNA_DIVIDER_LINE</name>
+        <uuid>_a-0000dbff-78cf-8000-9ba2-011c48011c48_79660</uuid>
+        <description>divider line</description>
         <parentUuid>_a-0000dbff-78cf-8000-9ba2-011c48011c48_79658</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -16,10 +16,10 @@
         </visibility>
         <typedValue>
             <type>
-                <name>string</name>
-                <namespace>http://www.w3.org/2001/XMLSchema</namespace>
+                <name>CollaborationDocument</name>
+                <namespace>http://www.appian.com/ae/types/2009</namespace>
             </type>
-            <value>Import Testing</value>
+            <value>_a-0000dbff-78cf-8000-9ba2-011c48011c48_79657</value>
         </typedValue>
     </constant>
     <roleMap public="true">
