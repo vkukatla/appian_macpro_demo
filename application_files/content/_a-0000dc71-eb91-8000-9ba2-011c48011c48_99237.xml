@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <constant>
-        <name>KRISHNA_IMPORT_TEST</name>
-        <uuid>_a-0000dc71-eb91-8000-9ba2-011c48011c48_96342</uuid>
-        <description>Import Testing</description>
+        <name>KRISHNA_TEST_AUTOMATION_CONSTANT</name>
+        <uuid>_a-0000dc71-eb91-8000-9ba2-011c48011c48_99237</uuid>
+        <description>Sample constant for deployments automation testing</description>
         <parentUuid>_a-0000dbff-78cf-8000-9ba2-011c48011c48_79658</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -16,10 +16,9 @@
         </visibility>
         <typedValue>
             <type>
-                <name>string</name>
+                <name>int</name>
                 <namespace>http://www.w3.org/2001/XMLSchema</namespace>
             </type>
-            <value>Import Testing</value>
         </typedValue>
     </constant>
     <roleMap public="true">
@@ -32,9 +31,7 @@
             <groups/>
         </role>
         <role allowForAll="false" inherit="true" name="administrators">
-            <users>
-                <userUuid>vkukatla</userUuid>
-            </users>
+            <users/>
             <groups/>
         </role>
         <role allowForAll="false" inherit="false" name="denyReaders">
@@ -50,4 +47,4 @@
             <groups/>
         </role>
     </roleMap>
-</contentHaul> 
+</contentHaul>
